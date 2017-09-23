@@ -11,7 +11,7 @@ Adjusted open and adjusted close are the driving factors for calculating return 
 Data is about size of 1.6GB stored in around 14 HDFS block which is good example for parallel computing.
 
 Write code to open the file, filter out for junk data like fields with no values or null values.
-Get the adjusted open for each stock on first trading day of the year and adjusted close price of the day on which calculation need to be done. T
+Get the adjusted open for each stock on first trading day of the year and adjusted close price of the day on which calculation need to be done. 
 Calculate the return percentage based on the two prices extracted in earlier step, sort the data based on return in descending order and save the data to HDFS.
 
 Build the application with SBT and run it on cluster with default parameters and with some tuned parameters for better performance.
