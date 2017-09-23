@@ -2,6 +2,7 @@
 
 # Problem Statement: Determine Stocks given high return this year (source: moneycontrol.com)
 Data Source: NYSE data from Quandle.com
+
 Description: 
 Data source has ticker id (stock id), date, open price, close price, day high price, day low price, volume, adjusted open, adjusted close and adjusted volume.
 Adjusted open and adjusted close are the driving factors for calculating return as these includes any corporate actions like stock split, stock merge etc taken on the stock. (Source: Investopedia.com)
