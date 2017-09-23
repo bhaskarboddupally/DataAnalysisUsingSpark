@@ -1,6 +1,6 @@
 # Stock market data analysis using Spark
 
-# Problem Statement: Determine Stocks given high return this year (source: moneycontrol.com)
+Problem Statement: Determine Stocks given high return this year (source: moneycontrol.com)
 Data Source: NYSE data from Quandle.com
 
 Description: 
